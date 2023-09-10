@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.resetbutton {
+  font-weight: 500;
+  cursor: pointer;
+  margin: 10px;
+}
+
+html, body {
+  background-image: url(".\componets\css files\background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+.big-container {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+.error{
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  z-index: 5;
+  padding: 100px;
+  background-color: black;
+  color: white;
+
+}

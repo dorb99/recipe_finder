@@ -1,0 +1,49 @@
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+h3 {
+  font-size: 16px;  
+  color: #3b3b3b;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-position: inside;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.resetbutton {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
