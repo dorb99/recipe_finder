@@ -37,13 +37,13 @@ function Favorite() {
       >
         Clear all recipes
       </button>
-      {savedRecipes.length > 0 ? (
+      {savedRecipes?.length > 0 ? (
         <ul>
-          {savedRecipes.map((recipe, index) => (
+          {savedRecipes?.map((recipe, index) => (
             <div id="container" key={index}>
               <div id="recipegeneral">
-                <h2>{recipe.name}</h2>
-                <img src={recipe.image} alt="not working" />
+                <h2>{recipe?.name}</h2>
+                <img src={recipe?.image} alt="not working" />
                 <button
                   id="favorite"
                   onClick={() => {
@@ -56,7 +56,7 @@ function Favorite() {
               <div id="detailside">
                 <ul>
                   <h5>Ingredients:</h5>
-                  {recipe.ingredients.map((ingredient, ingredientIndex) => (
+                  {recipe?.ingredients.map((ingredient, ingredientIndex) => (
                     <li key={ingredientIndex}>{ingredient}</li>
                   ))}
                 </ul>
