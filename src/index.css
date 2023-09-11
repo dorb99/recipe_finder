@@ -28,7 +28,8 @@ h1 {
   margin: 10px;
 }
 
-html, body {
+html,
+body {
   background-image: url(".\componets\css files\background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,13 +49,20 @@ html, body {
   backdrop-filter: blur(15px);
   border-radius: 10px;
 }
-.error{
+#errorpage {
   position: absolute;
-  top: 50vh;
-  left: 50vw;
+  top: center;
+  left: center;
   z-index: 5;
   padding: 100px;
+  margin: 100px;
   background-color: black;
   color: white;
-
+}
+@media screen and (max-width: 1024px) {
+  #errorpage {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30vh;
+  }
 }

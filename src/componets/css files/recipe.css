@@ -30,11 +30,24 @@
 #detailside {
   flex: 1;
   padding: 20px;
+  height: 400px;
   color: black;
+  font-size: 2rem;
+  scroll-behavior: initial;
+  overflow: scroll;
 }
-#detailside li {
-  margin-bottom: 10px;
-}
+  ::-webkit-scrollbar {
+    width: 0.1px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  #detailside li {
+    margin-bottom: 10px;
+  }
 #favorite {
   overflow: hidden;
   width: 200px;

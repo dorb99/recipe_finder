@@ -1,11 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function Error() {
+function ErrorPage() {
+    const navigate = useNavigate();
+    function GoTo() {
+        navigate("/Ingredients")
+    }
   return (
-    <div>
-      <h1 className="error">Oops, it seems like there was an error! Please try again to search recipes.</h1>
-    </div>
+      <h1 id="errorpage">Oops, it seems like there was an error!
+      <br/>
+      <button onClick={GoTo}>Lets go back</button>
+      </h1>
   );
 }
 
-export default Error;
+export default ErrorPage;

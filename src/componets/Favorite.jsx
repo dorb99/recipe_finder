@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "./css files/recipe.css";
+
 
 function Favorite() {
   const [savedRecipes, setSavedRecipes] = useState([]);
@@ -53,7 +55,7 @@ function Favorite() {
               </div>
               <div id="detailside">
                 <ul>
-                  <h3>Ingredients:</h3>
+                  <h5>Ingredients:</h5>
                   {recipe.ingredients.map((ingredient, ingredientIndex) => (
                     <li key={ingredientIndex}>{ingredient}</li>
                   ))}

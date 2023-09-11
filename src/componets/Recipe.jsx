@@ -56,7 +56,7 @@ function Recipe({ responseData, index }) {
       </div>
       <div id="detailside">
         <ul>
-          <h3>ingredients:</h3>
+          <h5>ingredients:</h5>
           {Ingredients.map((ingredient, index) => (
             <li key={index}>{ingredient}</li>
           ))}

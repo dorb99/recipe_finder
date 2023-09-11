@@ -47,3 +47,7 @@ input[type="submit"] {
   font-size: 16px;
   margin-top: 10px;
 }
+ul {
+  margin: 0px;
+  padding: 0px;
+}

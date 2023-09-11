@@ -5,6 +5,7 @@ import Homepage from "./componets/Homepage";
 import { useState } from "react";
 import Recipemaker from "./componets/Recipemaker";
 import Ingredients from "./componets/Ingredients";
+import ErrorPage from "./componets/Error";
 
 function App() {
   const [restrictions, setRestriction] = useState({});
@@ -38,7 +39,7 @@ function App() {
           }
         />
         <Route path="*" element={<Homepage />} />
-        <Route path="/Error" element={<Error />} />
+        <Route path="/Error" element={<ErrorPage />} />
       </Routes>
     </>
   );
