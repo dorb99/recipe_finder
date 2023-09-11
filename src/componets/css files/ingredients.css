@@ -1,24 +1,15 @@
 
 h1 {
   font-size: 24px;
-  color: #333;
-}
-
-h3 {
-  font-size: 16px;  
-  color: #3b3b3b;
-  margin-bottom: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  color: #333;
-  margin-top: 20px;
+  color: cornsilk;
 }
 
 form {
   display: flex;
   flex-direction: column;
+box-shadow: 10px;
+color: rgb(0, 0, 0);
+font-weight: 600;
 }
 
 li {
